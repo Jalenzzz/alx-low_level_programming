@@ -13,7 +13,7 @@ int _isupper(int c)
 	{
 		/* Return 1 if the character is uppercase */
 		return (1);
-    }
+}
 		/* Return 0 if the character is not uppercase */
 		return (0);
 }
