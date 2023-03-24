@@ -9,15 +9,11 @@
 int _isupper(int c)
 {
 	/* Check if it's in the range of uppercase letters */
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 65 && c <= 90)
 	{
 		/* Return 1 if the character is uppercase */
 		return (1);
-	}
-	else
-	{
+    }
 		/* Return 0 if the character is not uppercase */
 		return (0);
-	}
-}
 }
